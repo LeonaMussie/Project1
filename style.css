@@ -274,7 +274,8 @@ li.dropdown {
 }
 
 .visit a:hover {
-    background-color: rgb(204, 218, 218);
+    font-size: larger;
+    background-color: rgba(255,255,255,0.3);
 }
 
 .visit-eri{
@@ -293,6 +294,11 @@ li.dropdown {
 
 .news{
     clear: both;
+}
+
+.news h2{
+    text-align: center;
+    font-size: 40px;
 }
 
 .news a{
@@ -346,7 +352,13 @@ li.dropdown {
 
 .form {
     padding: 30px 20px;
-    font-size: 25px;
+    background-color:rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+
 }
 
 .form a{
@@ -355,21 +367,28 @@ li.dropdown {
 }
 
 .form a:hover{
-    background-color: #b9b9b9;
+    font-size: larger;
+    background-color:rgba(255, 255, 255, 0.7);
+
 }
+
+
 
 .accordion {
     width: 100%;
-    margin: auto 0;
+    margin: 0 auto;
     color: inherit;
-    background-color: #ffffff;
+    background-color:rgba(255, 255, 255, 0.7);
     padding: 45px 45px;
+    border-radius: 10px;
+    border: 1px solid white;
   
   }
 
 .accordion .container {
     position: relative;
     margin: 10px 10px;
+    width: 100%;
   }
   
   /* Positions the labels relative to the .container. Adds padding to the top and bottom and increases font size. Also makes its cursor a pointer */
@@ -430,8 +449,10 @@ li.dropdown {
   }
 
   .visa{
-    background-color: #faf3f3;
-    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.7);
+    font-size: 18px;
     margin: 10px;
     padding: 10px;
   }
@@ -467,14 +488,14 @@ li.dropdown {
     bottom: 80px;
     left: 100px;
 
-    background: rgba(124, 125, 126, 0.7);
+    background: rgba(124, 125, 126, 0.3);
 
     position: absolute;
 }
 
 
 .center h2{
-    font-size: 16px;
+    font-size: 18 px;
     color: inherit;
 
 }
@@ -483,6 +504,8 @@ li.dropdown {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
 
 }
 
@@ -500,8 +523,8 @@ li.dropdown {
     font-size: 20px;
     padding: 10px;
     margin: 10px;
-    color: rgb(71, 69, 69);
-    background: #ebe3e3;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
 }
 
 .nav2{
@@ -532,15 +555,17 @@ li.dropdown {
 .visit{
     font-family: Open Sans;
     font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
 
 }
 .history{
     margin: 20px;
     font-size: 18px;
     padding: 5px;
-
-
+    background-color: rgba(255, 255, 255, 0.3);
     clear: both;
+    border-radius: 10px;
     
 }
 
@@ -559,8 +584,9 @@ li.dropdown {
     font-size: 18px;
     padding: 5px;
     overflow: hidden;
-
     clear: both;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
 }
 
 .pre-history img{
