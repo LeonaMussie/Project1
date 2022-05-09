@@ -22,12 +22,10 @@ body{
     color:#131010;
     width: 100%;
     overflow: hidden;
-    z-index: 3;
     display: flex;
     flex-direction: row;
     padding: 10px;
     height: 10vh;
-    position: ;
 }
 .logo{
     padding: 0;
@@ -60,7 +58,7 @@ body{
 }
 
 #headinglogo {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #headinglogo a{
@@ -92,8 +90,10 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 10px;
+    letter-spacing: 2px;
+    color: #424242;
 }
 
 .lists{
@@ -119,15 +119,18 @@ body{
 
 .menu1 a:hover {
     border-bottom: 1px solid #777777;
+    color: black;
+    font-size: larger;
 }
 
 .menu1 a:visited{
-     background-color: #517557;     
+     background-color: #121312;     
 }
 
 .dropbtn {
     display: inline-block;
     color: white;
+    z-index: 3;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -147,7 +150,9 @@ li.dropdown {
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 9999;
+  
+    
 }
   
 .dropdown-content a {
@@ -169,6 +174,7 @@ li.dropdown {
 .outer-image{
     position: relative;
     height: 40%;
+    z-index: -1;
 }
 
 .slideshow-container img{
@@ -180,11 +186,24 @@ li.dropdown {
     display: none;
 }
 
+.embassy{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 70%;
+    left: 10%;
+    background: rgba(49, 50, 51, 0.3);
+    color: white;
+    position: absolute;
+}
+.embassy h3{
+    font-family: fantasy;
+}
+
 .fade{
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
+   
 }
 
 @-webkit-keyframes fade{
@@ -195,6 +214,13 @@ li.dropdown {
 @keyframes fade{
     from{ opacity: .4;}
     to{ opacity: 1;}
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+
 }
 
 
@@ -339,6 +365,9 @@ li.dropdown {
 
 }
 
+.social-net a :hover{
+    font-size: larger;
+}
 
 .social-net i{
     font-size: 300%;
@@ -466,6 +495,8 @@ li.dropdown {
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    
+   
 }
 
 .outer-hero{
@@ -473,6 +504,7 @@ li.dropdown {
     width: 100%;
     overflow: hidden;
     position: relative;
+    z-index: -1;
 }
 
 .cover-text h2{
@@ -528,38 +560,19 @@ li.dropdown {
     border-radius: 10px;
 }
 
-.nav2{
-    font-size: 15px;
-    float: left;
-    margin: 0;
-    background-color: #ffffff;
-    width: 100%;
-    border-top: #000000 solid 1px;
-    clear: both;
-}
-
-.nav2 li{
-    display: inline;
-    margin-left: 30px;
-    text-decoration: none;
-    color: inherit;
-    list-style-type: none;
-    
-    
-}
-
 .eri-history{
     clear: both;
     text-align: center;
 }
 
-.visit{
+.visit1{
     font-family: Open Sans;
     font-size: 20px;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 10px;
-
+    position: relative;
 }
+
 .history{
     margin: 20px;
     font-size: 18px;
@@ -610,7 +623,6 @@ li.dropdown {
     text-align: center;
     font-size: 60px;
 }
-
 table {
 	width: 70%;
 }
@@ -626,16 +638,6 @@ th, td {
 	padding: 8px;
 }
 
-.first th{
-    font-size: 25 px;
-    
-
-}
-
-.first td{
-    font-size: 20px;
-
-}
 
 .contactUs{
     display : flex;
@@ -654,6 +656,7 @@ th, td {
     background-color:rgba(48, 48, 48, 0.1);
 }
 .second {
+    float: left;
     margin-top: 10%;
    
 }
@@ -666,6 +669,12 @@ th, td {
 .second td{
     font-size: 25px;
     color: #474747
+}
+
+
+.third{
+    clear: both;
+    padding-top: 30px;
 }
 
 .third h3{
