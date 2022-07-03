@@ -1,6 +1,6 @@
 # Embassy of the state of Eritrea in UK
 
-This website application allows user to have general information about the embassy, to download  forms and other papers of applications and fill them and send them through post office or bring them to the embassy,google map to help customers or website visitors get directions to the Embassy, check the embassy opening and closing time, and links to Facebook and You Tube account of the embassy. 
+This website application allows user to have general information about the embassy, to download  forms and other papers of applications and fill them and send them through post office or bring them to the embassy,google map to help customers or website visitors get directions to the Embassy, check the embassy opening and closing time, and links to Facebook and You Tube account of the embassy. A link to do survey about the embassy.
 
 # The main goal of the website
 
