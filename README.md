@@ -4,7 +4,7 @@ This website application allows user to have general information about the embas
 
 # The main goal of the website
 
-The main goal of this website is for any customer of the embassy to get information they need and download  forms they need and fill them and bring them to the embassy with them or send it to the embassy.
+The main goal of this website is as an information resource for any customer of the embassy to obtain information they need regarding their Visa, Passport, National ID and other services.
 
 # Technologies Used
 - HTML
