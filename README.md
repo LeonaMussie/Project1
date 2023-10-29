@@ -67,9 +67,6 @@ To run the website locally or deploy it, you can follow these steps:
 2. Open the project in your preferred code editor.
 3. Open the `index.html` file in your web browser to view the website.
 
-## Contact
-
-If you have any questions, feedback, or require assistance, please don't hesitate to reach out to us through the [Contact Us](#) page on the website.
 
 ## Conclusion
 
