@@ -1,6 +1,13 @@
-# Embassy of the State of Eritrea in the UK - Official Website
+# Embassy of the State of Eritrea in the UK
 
 Welcome to the official website of the Embassy of the State of Eritrea in the United Kingdom. This repository contains the source code for our website, which aims to provide essential information and resources to our users.
+
+[Live App](https://leonamussie.github.io/Project1/index.html)
+
+![Screenshot (83)](https://github.com/LeonaMussie/Project1/assets/91215248/d0809c87-9817-43e0-ae1e-d9b94e83b579)
+![Screenshot (84)](https://github.com/LeonaMussie/Project1/assets/91215248/5efe1854-640e-44f1-aad5-ceb42afc8203)
+![Screenshot (85)](https://github.com/LeonaMussie/Project1/assets/91215248/aef2aeff-dd63-431a-9007-cf77f61b280d)
+![Screenshot (86)](https://github.com/LeonaMussie/Project1/assets/91215248/baa81e01-27f1-4a7f-8d64-cebc9e9ab0aa)
 
 ## About
 
@@ -67,3 +74,6 @@ If you have any questions, feedback, or require assistance, please don't hesitat
 ## Conclusion
 
 Thank you for visiting our website and exploring the services and information we offer. We hope this website serves as a valuable resource for your needs. We continuously strive to improve our services and welcome your feedback to make your experience even better. Your support is appreciated as we aim to assist and serve our community effectively.
+
+***
+Created By: Leona Mussie<br/>
